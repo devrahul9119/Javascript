@@ -22,3 +22,8 @@
 // console.log(2*2)
 // console.log(2/2)
 // console.log(2-2)
+
+// let const1 = 'Rahul'
+// let const2 = ' Dev'
+// let const3 = const1+const2
+// console.log(const3)
