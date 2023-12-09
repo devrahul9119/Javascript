@@ -14,7 +14,7 @@ let user = {
     'phone':'9034609119'
 }
 console.log(user.email)
-
+console.log(user['email'])
 
 
 // Arrays in javascript
