@@ -35,6 +35,17 @@
 // users()
 
 // Arrow functions
-const sum = (num1,num2) => num1+num2        // this is known as implicit return if we not use return keyword
-const sum1 = (num1,num2) => (num1+num2)     // this is known as implicit return if we not use return keyword
-const sum2 = (num1,num2) => ({user_name :'Rahul dev'})      // this is how to print the object by using the implicit return method
+// const sum = (num1,num2) => num1+num2        // this is known as implicit return if we not use return keyword
+// const sum1 = (num1,num2) => (num1+num2)     // this is known as implicit return if we not use return keyword
+// const sum2 = (num1,num2) => ({user_name :'Rahul dev'})      // this is how to print the object by using the implicit return method
+
+
+// IIFE (Iterative Invoked Function Expressions) === ()()
+
+(function sum(){                    // Named IIFE
+    console.log('Rahul dev')
+})();
+
+(() =>{                             // Unnamed IIFE
+    console.log('Rahul dev')
+})()
