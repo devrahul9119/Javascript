@@ -49,3 +49,11 @@
 (() =>{                             // Unnamed IIFE
     console.log('Rahul dev')
 })()
+
+(function sum(){                    // Named IIFE
+    console.log('Rahul dev')
+})();
+
+(() =>{                             // Unnamed IIFE
+    console.log('Rahul dev')
+})()
