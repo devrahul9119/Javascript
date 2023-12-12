@@ -4,3 +4,9 @@ for (let i = 5;i<=10;i++){
     }
     console.log(' ')
 }
+
+// loop on array
+let a = ['Rahul','Ram','Dev','Krishna','Shiva']
+for (let i = 0;i< a.length;i++){
+    console.log(`Hello, ${a[i]}`)
+}
