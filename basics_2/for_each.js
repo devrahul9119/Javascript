@@ -42,4 +42,10 @@ const student = [
 
 student.forEach((item) =>{
     console.log(item.studentName)
-})
+})  
+
+const values = student.forEach((item) =>{
+    console.log(item.studentName)
+    return item.studentName
+})  
+console.log(values)         // By this we can conclude that forEach loop never returns
