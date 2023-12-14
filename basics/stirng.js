@@ -24,3 +24,5 @@ console.log('   Rahul dev    '.trim())        // Remove unwanted spaces form the
 console.log(name.replace('field','Branch'))     // Replace the substr in given string
 console.log('Rahul dev is a good boy and he is a Python developer and he will also become a Machine learning developer'.includes('Rahul dev')) // Return is given value includes in the given string or not if not then false if includes then true
 console.log('Machine leanring is a fastly evolving field nowadays'.split(' '))
+
+
